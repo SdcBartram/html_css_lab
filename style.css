@@ -29,10 +29,41 @@ article {
 
 .comments {
     width: 80%;
-    margin:auto
+    margin:auto;
+}
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.comments button {
-    width:10%
-  margin-left: 20px;
+.submit_comments {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80%;
+    margin: auto;
+}
+
+/* textarea {
+    width: 100%;
+} */
+
+/* .submit_comments button {
+    position: absolute;
+    right: 5;
+    bottom: 5;
+} */
+
+body > footer {
+    font-size: small;
+    background-color: dodgerblue;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+hr {
+    display: block;
+    width: 80%;
 }
